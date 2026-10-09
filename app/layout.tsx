@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from "next";
-import { Fira_Sans, Inter } from "next/font/google";
+import { Plus_Jakarta_Sans, Inter } from "next/font/google";
 import "./globals.css";
 
-const display = Fira_Sans({ subsets: ["latin"], weight: ["500", "600"], variable: "--font-display" });
+const display = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-display" });
 const body = Inter({ subsets: ["latin"], variable: "--font-body" });
 
 const description =
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#1d3d2e",
+  themeColor: "#0b1f17",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
