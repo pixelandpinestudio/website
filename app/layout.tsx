@@ -1,22 +1,28 @@
-import type { Metadata } from "next";
-import { Fraunces, Inter } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Fira_Sans, Inter } from "next/font/google";
 import "./globals.css";
 
-const display = Fraunces({ subsets: ["latin"], variable: "--font-display" });
+const display = Fira_Sans({ subsets: ["latin"], weight: ["500", "600"], variable: "--font-display" });
 const body = Inter({ subsets: ["latin"], variable: "--font-body" });
 
+const description =
+  "Data and analytics, digital marketing and IT staffing for enterprise and growing businesses in India and internationally.";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pixelandpinestudio.com"),
-  title: "Pixel & Pine Studio",
-  description:
-    "Pixel & Pine Studio designs and builds websites and mobile apps for Android and iOS.",
+  metadataBase: new URL("https://www.pixelandpinestudio.com"),
+  title: "The Pixel and Pine Studio | Data, marketing and IT staffing",
+  description,
   openGraph: {
-    title: "Pixel & Pine Studio",
-    description: "Websites and mobile apps, crafted with care.",
-    url: "https://pixelandpinestudio.com",
-    siteName: "Pixel & Pine Studio",
+    title: "The Pixel and Pine Studio",
+    description,
+    url: "https://www.pixelandpinestudio.com",
+    siteName: "The Pixel and Pine Studio",
     type: "website",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#1d3d2e",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
