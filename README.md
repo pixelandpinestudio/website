@@ -1,4 +1,4 @@
-# pixelandpinestudio.com
+# thepixelandpinestudio.com
 
 Website for Pixel & Pine Studio, built with [Next.js](https://nextjs.org) and deployed on Vercel.
 

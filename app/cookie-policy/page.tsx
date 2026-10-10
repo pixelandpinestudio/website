@@ -5,7 +5,7 @@ import { site } from "../lib/site";
 
 export const metadata: Metadata = {
   title: "Cookie policy",
-  description: "How www.pixelandpinestudio.com uses cookies and similar technologies.",
+  description: "How www.thepixelandpinestudio.com uses cookies and similar technologies.",
   alternates: { canonical: "/cookie-policy" },
 };
 

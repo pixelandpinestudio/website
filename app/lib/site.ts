@@ -1,7 +1,7 @@
 export const site = {
   name: "The Pixel and Pine Studio",
   short: "Pixel and Pine",
-  url: "https://www.pixelandpinestudio.com",
+  url: "https://www.thepixelandpinestudio.com",
   description:
     "Data and analytics, digital marketing and IT staffing for enterprise and growing businesses in India and internationally.",
   contactEmail: "admin@pixelandpinestudio.com",

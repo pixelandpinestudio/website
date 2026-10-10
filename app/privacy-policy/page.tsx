@@ -40,7 +40,7 @@ export default function PrivacyPolicy() {
       <h2 id="about">1. About this policy</h2>
       <p>
         {site.name} (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) operates{" "}
-        <Link href="/">www.pixelandpinestudio.com</Link> and provides data and analytics, digital
+        <Link href="/">www.thepixelandpinestudio.com</Link> and provides data and analytics, digital
         marketing and IT staffing services. For personal data we collect for our own purposes, we
         are the <strong>Data Fiduciary</strong> under the Digital Personal Data Protection Act, 2023.
         Where we process personal data on behalf of a client as part of a project, we act as that

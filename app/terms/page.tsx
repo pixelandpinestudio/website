@@ -28,7 +28,7 @@ export default function Terms() {
   return (
     <LegalPage
       title="Terms of use"
-      intro="These terms govern your access to and use of www.pixelandpinestudio.com. Please read them carefully."
+      intro="These terms govern your access to and use of www.thepixelandpinestudio.com. Please read them carefully."
       toc={toc}
     >
       <h2 id="acceptance">1. Acceptance</h2>
